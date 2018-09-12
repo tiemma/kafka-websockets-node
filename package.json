@@ -1,0 +1,33 @@
+{
+  "name": "frontend-consumer-kafka",
+  "version": "1.0.0",
+  "description": "Front End Consumer Test for Kafka",
+  "main": "index.js",
+  "scripts": {
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "watch": "forever -o out.log -e err.log dist/index.js"
+  },
+  "keywords": [
+    "kafka",
+    "js",
+    "consumer"
+  ],
+  "author": "Bakare Emmanuel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.15.2",
+    "kafka-avro": "^1.0.5",
+    "redis": "^2.8.0",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "babel-loader": "^8.0.0-beta.4",
+    "forever": "^0.15.3",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
