@@ -19,7 +19,7 @@
     "dotenv": "^6.0.0",
     "express": "^4.15.2",
     "kafka-avro": "^1.0.5",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "socket.io": "^1.7.3"
   },
   "devDependencies": {
