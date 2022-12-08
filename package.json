@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.0.0",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "kafka-avro": "^1.0.5",
     "redis": "^2.8.0",
     "socket.io": "^1.7.3"
